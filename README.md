@@ -46,4 +46,14 @@ https://velog.io/@peacepiece27/HTML-핵심정리
 `<a href="https://www.w3.org/TR/html5/" target="_blank" title="html5 specification">Hypertext Markup Language (HTML)</a>` <br><br>
 `target = "_blank"`라면 새창에서 링크가 열린다.  
 `href` 속성은 링크의 주소  
-`title` 속성은 링크 위에 마우스를 올려놓았을때 표시되는 주소.  
+`title` 속성은 링크 위에 마우스를 올려놓았을때 표시되는 주소.
+
+## 6. 부록
+### 6.1. 동영상 삽입
+`<iframe width="1600" height="900" src="https://www.youtube.com/embed/jSJM9iOiQ1g?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`  
+유튜브 동영상을 삽입하는 코드이다. 일부 속성들이 앞에서 배운 요소들과 겹치는 것을 알 수 있다. `src`는 경로, `title`은 커서를 올려놓았을때 설명이다. 이처럼 중복되는 속성이 많으니, 공통적으로 반복되는 속성은 외워두도록 하자.  
+임베디드 주소 옆에 autoplay를 삽입하여 자동재생이 가능하게했다. *Google Chorme*에서는 mute=1 로 해주지 않으면 재생되지 않기에 이도 함께 설정했다.  
+`<iframe></iframe>` 태그는 외부의 HTML 페이지를 표시하는 기능을 가졌다.
+### 6.2. target 속성
+목차를 기존의 코드에서 분리하게 되면서 target 속성을 변경해, 창이 뜨는 방법을 변경했다.
+https://tcpschool.com/html-tag-attrs/a-target
