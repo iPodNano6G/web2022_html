@@ -57,3 +57,6 @@ https://velog.io/@peacepiece27/HTML-핵심정리
 ### 6.2. target 속성
 목차를 기존의 코드에서 분리하게 되면서 target 속성을 변경해, 창이 뜨는 방법을 변경했다.
 https://tcpschool.com/html-tag-attrs/a-target
+
+### 6.3. 댓글
+https://disqus.com/ 해당 사이트에서 댓글
